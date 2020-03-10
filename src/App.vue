@@ -1,15 +1,17 @@
 <template>
-  <v-app> </v-app>
+  <v-app>
+    <Navbar />
+  </v-app>
 </template>
 
 <script>
-// import MainThumbnail from "./layouts/MainThumbnail";
+import Navbar from "./layouts/Navbar";
 
 export default {
   name: "App",
 
   components: {
-    // MainThumbnail
+    Navbar
   },
 
   data: () => ({
