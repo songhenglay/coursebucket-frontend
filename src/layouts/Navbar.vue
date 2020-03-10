@@ -1,7 +1,7 @@
 <template>
   <div>
-    <v-app-bar color="primary" dense dark>
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+    <v-app-bar color="primary" dense dark class="px-5">
+      <v-app-bar-nav-icon small></v-app-bar-nav-icon>
 
       <v-toolbar-title class="font-weight-bold ml-5 mr-10"
         >Coursebucket.</v-toolbar-title
@@ -20,6 +20,7 @@
       <v-spacer></v-spacer>
       <v-text-field
         light
+        flat
         append-icon="mdi-magnify"
         v-model="searchText"
         solo
