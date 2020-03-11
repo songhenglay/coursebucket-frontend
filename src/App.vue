@@ -5,7 +5,6 @@
 </template>
 
 <script>
-import Navbar from "./layouts/Navbar";
 
 export default {
   name: "App",
